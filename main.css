@@ -1,0 +1,76 @@
+body {
+  font-family: 'JF-Dot';
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+@font-face {
+  font-family: 'JF-Dot';
+  src: url(JF-Dot-MPlus12B.ttf);
+  font-weight: normal;
+}
+
+.title {
+  font-family: 'JF-Dot';
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+
+#downbtn {
+  width: 50px;
+  border: 3px solid black;
+
+  border-radius: 3px;
+}
+.inputtitle {
+  font-family: 'JF-Dot';
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.input {
+  padding-left: 50%;
+}
+.download {
+  padding-left: 2%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header input {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+main {
+  flex: 1;
+}
+
+main textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+  font-family: 'JF-Dot';
+
+  border: none;
+  outline: none;
+  resize: none;
+  box-sizing: border-box;
+
+  background: transparent;
+}
